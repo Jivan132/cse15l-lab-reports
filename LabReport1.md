@@ -9,7 +9,7 @@ Then, click on new terminal and it will pop-up at the bottom. In there you will 
 > The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
->
+
  Type “yes” since we will be connecting to this server often. You will know that you have followed everything correctly if you see something similar to this:
  
  ![step 2.2](https://github.com/Jivan132/cse15l-lab-reports/blob/main/photos/Step%202.2.jpg?raw=true)

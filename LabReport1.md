@@ -27,8 +27,9 @@ You can see that in the example below “ls” is run first in the server and th
 ![step 3.1](https://github.com/Jivan132/cse15l-lab-reports/blob/main/photos/Step%203.jpg?raw=true)
 _Server Output_
 
----
+
 ![step 3.2](https://github.com/Jivan132/cse15l-lab-reports/blob/main/photos/Step%203.2.jpg?raw=true)
 _CLient Output_
 
-4. 
+4. Now we will see how we can move files from our computer to the server “ieng6”. We can accomplish this with the command “scp”. Either create a new file or open it using VScode. After saving it, open the terminal and type the following command “scp &lt;name of the file including the extension> &lt;course specific account>:~/”. For example, in my case it would be “scp WhereAmI.java cs15lwi22alh@ieng6.ucsd.edu:~/”. After doing this, you will be prompted for your password and you will see something similar to this:
+![step 4](https://github.com/Jivan132/cse15l-lab-reports/blob/main/photos/Step%204.jpg?raw=true)

@@ -13,3 +13,22 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
  Type “yes” since we will be connecting to this server often. You will know that you have followed everything correctly if you see something similar to this:
  
  ![step 2.2](https://github.com/Jivan132/cse15l-lab-reports/blob/main/photos/Step%202.2.jpg?raw=true)
+
+3. Once you are connected to the “ieng6” server you can try some commands on the server and then try them again on your computer to see the differences. Some commands you can try are:
+ - cd
+- cd~
+- ls -lat
+- la -a
+- ls
+- exit (which exits the server session)
+- Among others
+
+You can see that in the example below “ls” is run first in the server and then in the client side. The output of both images corresponds to the names of the files of each directory (one for the server and the other for the client).
+![step 3.1](https://github.com/Jivan132/cse15l-lab-reports/blob/main/photos/Step%203.jpg?raw=true)
+_Server Output_
+
+---
+![step 3.2](https://github.com/Jivan132/cse15l-lab-reports/blob/main/photos/Step%203.2.jpg?raw=true)
+_CLient Output_
+
+4. 

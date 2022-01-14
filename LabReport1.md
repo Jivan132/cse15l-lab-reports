@@ -81,6 +81,7 @@ You can optimize some of the remote running by adding more commands in your line
 cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 ```
 You can also run commands in the server and then automatically exit by adding the command in quotes after the “ssh &lt;course specific account>”. This is an example of how it would look:
+
 ![step 5](https://github.com/Jivan132/cse15l-lab-reports/blob/main/photos/Step%206.jpg?raw=true)
 
 *Pro tip: you can go to previous commands by using the arrow keys*

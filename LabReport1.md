@@ -34,7 +34,11 @@ exit (which exits the server session)
 - Among others
 ```
 
-You can see that in the example below “ls” is run first in the server and then in the client side. The output of both images corresponds to the names of the files of each directory (one for the server and the other for the client).
+You can see that in the example below 
+```
+ls
+```
+ is run first in the server and then in the client side. The output of both images corresponds to the names of the files of each directory (one for the server and the other for the client).
 ![step 3.1](https://github.com/Jivan132/cse15l-lab-reports/blob/main/photos/Step%203.jpg?raw=true)
 _Server Output_
 

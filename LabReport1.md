@@ -1,16 +1,22 @@
 # Tutorial
 ### In this tutorial, you will learn how to log in into a course-specific account on “ieng6”.
 ## Step 1: Installing VScode
-The first step will be to install VScode. You can do this by going to “https://code.visualstudio.com/” and there you can download the latest version. Once it is installed, you will see something similar to this when you open it.
+The first step will be to install VScode. You can do this by clicking [here](https://code.visualstudio.com/) and there you can download the latest version. Once it is installed, you will see something similar to this when you open it.
 ![step 1](https://github.com/Jivan132/cse15l-lab-reports/blob/main/photos/Step%201.jpg?raw=true)
 
 ## Step 2: Remotely Connecting
 The next step will be to connect remotely to the “ieng6” server. You can do this by first opening the terminal here.
 ![step 2](https://github.com/Jivan132/cse15l-lab-reports/blob/main/photos/Step%202.jpg?raw=true)
-Then, click on new terminal and it will pop-up at the bottom. In there you will type “ssh [course specific account]” (you can find your account name and reset your password [here](https://sdacs.ucsd.edu/~icc/index.php)). After this, you will be prompted to type your password, be careful typing it because you will not be able to see what you are typing or how many characters you are typing. Once you enter your password, you will probably be presented with this massage:
-> The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+Then, click on new terminal and it will pop-up at the bottom. In there you will type “ssh [course specific account]” (you can find your account name and reset your password [here](https://sdacs.ucsd.edu/~icc/index.php)). In my case it would look like this:
+```
+ssh cs15lwi22alh@ieng6.ucsd.edu
+```
+After this, you will be prompted to type your password, be careful typing it because you will not be able to see what you are typing or how many characters you are typing. Once you enter your password, you will probably be presented with this massage:
+```
+The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
+```
 
  Type “yes” since we will be connecting to this server often. You will know that you have followed everything correctly if you see something similar to this:
  
@@ -18,13 +24,15 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 ## Step 3: Trying Some Commands
 Once you are connected to the “ieng6” server you can try some commands on the server and then try them again on your computer to see the differences. Some commands you can try are:
- - cd
-- cd~
-- ls -lat
-- la -a
-- ls
-- exit (which exits the server session)
+```
+cd
+cd~
+ls -lat
+la -a
+ls
+exit (which exits the server session)
 - Among others
+```
 
 You can see that in the example below “ls” is run first in the server and then in the client side. The output of both images corresponds to the names of the files of each directory (one for the server and the other for the client).
 ![step 3.1](https://github.com/Jivan132/cse15l-lab-reports/blob/main/photos/Step%203.jpg?raw=true)
@@ -35,7 +43,11 @@ _Server Output_
 _CLient Output_
 
 ## Step 4: Moving Files with scp
-Now we will see how we can move files from our computer to the server “ieng6”. We can accomplish this with the command “scp”. Either create a new file or open it using VScode. After saving it, open the terminal and type the following command “scp &lt;name of the file including the extension> &lt;course specific account>:~/”. For example, in my case it would be “scp WhereAmI.java cs15lwi22alh@ieng6.ucsd.edu:~/”. After doing this, you will be prompted for your password and you will see something similar to this:
+Now we will see how we can move files from our computer to the server “ieng6”. We can accomplish this with the command “scp”. Either create a new file or open it using VScode. After saving it, open the terminal and type the following command “scp &lt;name of the file including the extension> &lt;course specific account>:~/”. For example, in my case it would be 
+``` 
+scp WhereAmI.java cs15lwi22alh@ieng6.ucsd.edu:~/ 
+``` 
+After doing this, you will be prompted for your password and you will see something similar to this:
 ![step 4](https://github.com/Jivan132/cse15l-lab-reports/blob/main/photos/Step%204.jpg?raw=true)
 
 ## Step 5: Setting an SSH Key

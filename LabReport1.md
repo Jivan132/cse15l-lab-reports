@@ -1,4 +1,4 @@
-# Tutorial
+# Lab Report 1: Tutorial
 ### In this tutorial, you will learn how to log in into a course-specific account on “ieng6”.
 ## Step 1: Installing VScode
 The first step will be to install VScode. You can do this by clicking [here](https://code.visualstudio.com/) and there you can download the latest version. Once it is installed, you will see something similar to this when you open it.

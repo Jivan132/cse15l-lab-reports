@@ -7,7 +7,11 @@ The first step will be to install VScode. You can do this by clicking [here](htt
 ## Step 2: Remotely Connecting
 The next step will be to connect remotely to the “ieng6” server. You can do this by first opening the terminal here.
 ![step 2](https://github.com/Jivan132/cse15l-lab-reports/blob/main/photos/Step%202.jpg?raw=true)
-Then, click on new terminal and it will pop-up at the bottom. In there you will type “ssh [course specific account]” (you can find your account name and reset your password [here](https://sdacs.ucsd.edu/~icc/index.php)). In my case it would look like this:
+Then, click on new terminal and it will pop-up at the bottom. In there you will type 
+```
+“ssh [course specific account]” 
+```
+(you can find your account name and reset your password [here](https://sdacs.ucsd.edu/~icc/index.php)). In my case it would look like this:
 ```
 ssh cs15lwi22alh@ieng6.ucsd.edu
 ```
@@ -47,7 +51,11 @@ _Server Output_
 _CLient Output_
 
 ## Step 4: Moving Files with scp
-Now we will see how we can move files from our computer to the server “ieng6”. We can accomplish this with the command “scp”. Either create a new file or open it using VScode. After saving it, open the terminal and type the following command “scp &lt;name of the file including the extension> &lt;course specific account>:~/”. For example, in my case it would be 
+Now we will see how we can move files from our computer to the server “ieng6”. We can accomplish this with the command “scp”. Either create a new file or open it using VScode. After saving it, open the terminal and type the following command 
+```
+scp <name of the file including the extension> <course specific account>:~/
+```
+ For example, in my case it would be 
 ``` 
 scp WhereAmI.java cs15lwi22alh@ieng6.ucsd.edu:~/ 
 ``` 
@@ -99,6 +107,20 @@ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
 You can also run commands in the server and then automatically exit by adding the command in quotes after the “ssh &lt;course specific account>”. This is an example of how it would look:
 
 ![step 5](https://github.com/Jivan132/cse15l-lab-reports/blob/main/photos/Step%206.jpg?raw=true)
+
+By doing this process one can save some keystroke that over time they do add up to a lot of saved time. For example, by typing:
+```
+scp WhereAmI.java cs15lwi22alh@ieng6.ucsd.edu:~/
+ssh cs15lwi22alh@ieng6.ucsd.edu
+Javac WhereAmI.java
+Java WherAmI
+```
+You need to do an approximate of 83 keystrokes (including copy and pasting to optimize and enter to run the line). When compared to writing everything in one line, you can really see the difference:
+```
+scp WhereAmI.java cs15lwi22alh@ieng6.ucsd.edu:~/; ssh cs15lwi22alh@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
+```
+You get 77 keystrokes.
+
 
 *Pro tip: you can go to previous commands by using the arrow keys*
 

@@ -119,8 +119,7 @@ You need to do an approximate of 83 keystrokes (including copy and pasting to op
 ```
 scp WhereAmI.java cs15lwi22alh@ieng6.ucsd.edu:~/; ssh cs15lwi22alh@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
 ```
-You get 77 keystrokes.
-
+You get 77 keystrokes (Also including the copying and pasting, and clicking enter to run the line).
 
 *Pro tip: you can go to previous commands by using the arrow keys*
 

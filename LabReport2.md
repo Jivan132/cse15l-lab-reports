@@ -23,7 +23,9 @@ The symptom appears because the program is trying to use the first index of the 
 ## Second Fix: If the link is for an image 
 We noticed that when the link was an image it returned the link.
 *Screenshot:*
+
 ![changes fix 2](https://github.com/Jivan132/cse15l-lab-reports/blob/main/photos/Lab_Report2/Changes_Fix2.jpg?raw=true)
+
 *Failure-inducing input file:*
 *Symptom of failure-induce error:*
 *Description:*

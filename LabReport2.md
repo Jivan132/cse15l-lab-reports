@@ -28,7 +28,7 @@ We noticed that when the link was an image it returned the link.
 
 *Failure-inducing input file:*
 
-[Link](https://github.com/Jivan132/markdown-parse/blob/main/test-file.md) that caused the failure.
+[Link](https://github.com/Jivan132/markdown-parse/blob/main/test-file.md) to the file that caused the failure.
 
 *Symptom of failure-induce error:*
 ```
@@ -40,12 +40,24 @@ The program was taking everything between parentheses as a Link. However, images
 
 <br/><br/> 
 ## Third Fix: If the link is for an image 
-We noticed that when the link was an image it returned the link.
+We noticed that whenever the link was incomplete the program caused an error.
 *Screenshot:*
-*Failure-inducing input file:*
-*Symptom of failure-induce error:*
-*Description:*
+![changes fix 3](https://github.com/Jivan132/cse15l-lab-reports/blob/main/photos/Lab_Report2/Changes_Fix3.jpg?raw=true)
 
+*Failure-inducing input file:*
+[Link](https://github.com/Jivan132/markdown-parse/blob/main/test-file2.md) to the file that caused the failure.
+*Symptom of failure-induce error:*
+```
+Exception in thread "main" java.lang.StringIndexOutOfBoundsException: begin 0, end -1, length 8
+        at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4601)
+        at java.base/java.lang.String.substring(String.java:2704)
+        at MarkdownParse.getLinks(MarkdownParse.java:32)
+        at MarkdownParse.main(MarkdownParse.java:47)
+```
+*Description:*
+The crash appears whenever the link is not complete. This is caused because the program is expecting the two brackets and the two parentheses, so whenever one is missing the program crashes. We can get around this issue by telling the program that if one of these is missing, do not execute all the code.
+
+<br/><br/> 
 
 ---
 ##### [Link](https://github.com/Jivan132/markdown-parse) to markdown-parse repository

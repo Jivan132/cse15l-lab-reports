@@ -8,6 +8,7 @@ We noticed that whenever we did not include any arguments in the command line, t
 ```
 ArrayIndexOutOfBoundsException
 ```
+*Screenshot:*
 ![changes fix 1](https://github.com/Jivan132/cse15l-lab-reports/blob/main/photos/Lab_Report2/Changes_Fix1.jpg?raw=true)
 
 > There was no file that induce the failure since the crash came when there were no arguments.
@@ -16,7 +17,8 @@ ArrayIndexOutOfBoundsException
 ```
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0 at MarkdownParse.main(MarkdownParse.java:25)
 ```
-
+*Description:*
+The symptom appears because the program is trying to use the first index of the array ``` args ```. However, since the array ``` args ``` uses the command line arguments to make the array and there are no arguments in the command line, then the array is empty. That means that when the program wants to access the array it causes an ``` ArrayIndexOutOfBoundsException ```.
 
 ---
 ##### [Link](https://github.com/Jivan132/markdown-parse) to markdown-parse repository

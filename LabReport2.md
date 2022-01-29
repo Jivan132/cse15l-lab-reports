@@ -6,4 +6,4 @@ We noticed that whenever we did not include any arguments in the command line, t
 ```
 ArrayIndexOutOfBoundsException
 ```
-
+![changes fix 1](https://github.com/Jivan132/cse15l-lab-reports/blob/main/photos/Lab_Report2/Changes_Fix1.jpg)

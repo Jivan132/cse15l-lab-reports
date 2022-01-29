@@ -19,6 +19,22 @@ Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 0 out
 ```
 *Description:*
 The symptom appears because the program is trying to use the first index of the array ``` args ```. However, since the array ``` args ``` uses the command line arguments to make the array and there are no arguments in the command line, then the array is empty. That means that when the program wants to access the array it causes an ``` ArrayIndexOutOfBoundsException ```.
+<br/><br/> 
+## Second Fix: If the link is for an image 
+We noticed that when the link was an image it returned the link.
+*Screenshot:*
+*Failure-inducing input file:*
+*Symptom of failure-induce error:*
+*Description:*
+
+<br/><br/> 
+## Third Fix: If the link is for an image 
+We noticed that when the link was an image it returned the link.
+*Screenshot:*
+*Failure-inducing input file:*
+*Symptom of failure-induce error:*
+*Description:*
+
 
 ---
 ##### [Link](https://github.com/Jivan132/markdown-parse) to markdown-parse repository

@@ -27,8 +27,16 @@ We noticed that when the link was an image it returned the link.
 ![changes fix 2](https://github.com/Jivan132/cse15l-lab-reports/blob/main/photos/Lab_Report2/Changes_Fix2.jpg?raw=true)
 
 *Failure-inducing input file:*
+
+[Link](https://github.com/Jivan132/markdown-parse/blob/main/test-file.md) that caused the failure.
+
 *Symptom of failure-induce error:*
+```
+[actual-Link.html, https://github.com/Jivan132/cse15l-lab-reports/blob/main/photos/Lab_Report2/Changes_Fix1.jpg?raw=true]
+```
+
 *Description:*
+The program was taking everything between parentheses as a Link. However, images are also formatted the same way as links. To fix this, you just need to pay attention if there is an “!” before the brackets.
 
 <br/><br/> 
 ## Third Fix: If the link is for an image 

@@ -18,5 +18,5 @@ As we can see in the picture, we are using the command ```ssh server``` to conne
 <br/><br/>
 
 ## Copying a file to the server using the alias:
-![step 3](https://github.com/Jivan132/cse15l-lab-reports/blob/main/Lab-Report-3/Photos/Step%203.jpg?raw=true)
-> 
+![step 3](https://github.com/Jivan132/cse15l-lab-reports/blob/main/Lab-Report-3/Photos/Step%203%20v2.jpg?raw=true)
+> This image shows the VScode terminal transferring the file ```transferFile.txt``` with the ```scp``` command to the ```ieng6``` server using the alias created

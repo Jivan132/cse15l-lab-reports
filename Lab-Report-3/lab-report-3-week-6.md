@@ -13,3 +13,10 @@ In this file, we have created a series of command in order to access the ```ieng
 ![step 2](https://github.com/Jivan132/cse15l-lab-reports/blob/main/Lab-Report-3/Photos/Step%202.jpg?raw=true)
 > Windows PowerShell window showing that I was able to connect to the server by just typing ```ssh server```
 
+As we can see in the picture, we are using the command ```ssh server``` to connect to the ```ieng6``` server instead of writing my whole username ```cs15lwi22alh@ieng6.ucsd.edu```. This works because in the previous step I was able to configure a “shortcut” by providing an alias, which in this case is the word ```server```.
+
+<br/><br/>
+
+## Copying a file to the server using the alias:
+![step 3](https://github.com/Jivan132/cse15l-lab-reports/blob/main/Lab-Report-3/Photos/Step%203.jpg?raw=true)
+> 

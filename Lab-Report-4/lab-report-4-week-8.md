@@ -14,3 +14,8 @@
 **Snippet 3:** ```["https://twitter.com", "https://ucsd-cse15l-w22.github.io/", "https://cse.ucsd.edu/"]```
 
 
+## Tests:
+![Tests](https://github.com/Jivan132/cse15l-lab-reports/blob/main/Lab-Report-4/Photos/Snippet%20Tests.jpg?raw=true)
+
+<br/>
+

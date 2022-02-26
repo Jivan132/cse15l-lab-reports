@@ -19,3 +19,7 @@
 
 <br/>
 
+## Own markdown-parse Tests
+![Own results 1](https://github.com/Jivan132/cse15l-lab-reports/blob/main/Lab-Report-4/Photos/Own%20Tests%20Fail%201.jpg?raw=true)
+
+![Own results 2](https://github.com/Jivan132/cse15l-lab-reports/blob/main/Lab-Report-4/Photos/Own%20Tests%20Fail%202.jpg?raw=true)
